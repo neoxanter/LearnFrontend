@@ -17,6 +17,12 @@ h1 {
     line-height: 1.3;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
 p {
     color: #8f8f8f;
     font-family: "Montserrat-Light";
@@ -77,4 +83,32 @@ margin-bottom: 1rem;
 
 .icon:hover {
     color: #d3bc3a;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #1A9C86;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    background-color: #1A9C86;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
