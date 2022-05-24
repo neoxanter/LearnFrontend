@@ -26,13 +26,6 @@
       crossorigin="anonymous"
     />
 
-    <!-- Bootstrap Scripts -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -188,24 +181,53 @@
     <section id="pricing">
       <h2>Наши цены на консультации</h2>
       <p>Самые демократичные и низкие на рынке недвижимости.</p>
-
-      <h3>Море зовёт...</h3>
-      <h2>Бесплатно</h2>
-      <p>Таких услуг не оказываем.</p>
-
-      <button type="button">Не выбирать</button>
-
-      <h3>Я живу мечтой о нём...</h3>
-      <h2>$159 / час</h2>
-      <p>Расскажем и покажем то, что Вы захотите!</p>
-
-      <button type="button">Выбрать</button>
-
-      <h3>Готов на всё...</h3>
-      <h2>$599 / час</h2>
-      <p>Сделаем для Вас всё и даже больше!</p>
-
-      <button type="button">Жми скорее</button>
+      <div class="row">
+        <div class="pricing_column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header"><h3>Море зовёт...</h3></div>
+            <div class="card-body">
+              <h2>Бесплатно</h2>
+              <p>Таких услуг не оказываем.</p>
+              <div class="d-grid gap-2">
+                <button
+                  class="btn btn-lg btn-block btn-outline-dark"
+                  type="button"
+                >
+                  Не выбирать
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing_column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header"><h3>Я живу мечтой о нём...</h3></div>
+            <div class="card-body">
+              <h2>$159 / час</h2>
+              <p>Расскажем и покажем то, что Вы захотите!</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-lg btn-block btn-dark" type="button">
+                  Выбрать
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing_column col-lg-4">
+          <div class="card">
+            <div class="card-header"><h3>Готов на всё...</h3></div>
+            <div class="card-body">
+              <h2>$599 / час</h2>
+              <p>Сделаем для Вас всё и даже больше!</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-lg btn-block btn-dark" type="button">
+                  Жми скорее
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call to Action -->
@@ -223,5 +245,24 @@
     <footer id="footer">
       <p>© Copyright О море море...</p>
     </footer>
+
+    <!-- Bootstrap Scripts -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
