@@ -131,3 +131,16 @@ margin-bottom: 1rem;
 .pricing_column {
     padding: 3% 5% 2%;
 }
+
+@media (max-width: 1320px) {
+    .header-image {
+        /* position: static; */
+        /* transform: rotate(0); */
+        visibility: hidden;
+
+    }
+
+    #title {
+        text-align: center;
+    }
+}
