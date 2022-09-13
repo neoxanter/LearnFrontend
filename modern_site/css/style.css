@@ -12,6 +12,7 @@
 .promo {
     height: 800px;
     background: url('../img/bg/main_bg.png') center center/cover no-repeat;
+    padding: 25px 0 55px 0;
 }
 
 .logo .logo_img {
@@ -20,12 +21,14 @@
 }
 
 .logo .logo_text {
-        font-size: 15px;
+        font-size: 16px;
         font-family: "Roboto";
         font-weight: 500;
         color: rgb(255, 255, 255);
         line-height: 24px;
         text-transform: uppercase;
+        text-align: center;
+        margin-top: 14px;
 }
 
       
