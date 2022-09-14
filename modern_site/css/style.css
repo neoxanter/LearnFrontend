@@ -21,13 +21,13 @@
 }
 
 .logo .logo_text {
-        font-size: 18px;
-        font-family: "Roboto";
-        font-weight: 500;
-        color: rgb(255, 255, 255);
-        line-height: 24px;
-        text-align: center;
-        margin-top: 14px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    text-align: center;
+    margin-top: 14px;
 }
 
 h1 {
@@ -39,33 +39,33 @@ h2.title {
 }
 
 .title {
-        font-size: 41px;
-        font-family: "Roboto";
-        font-weight: 400;
-        color: rgb(249, 191, 59);
-        text-transform: uppercase;
-        line-height: 24px;
-        text-align: center;     
+    font-size: 41px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: rgb(249, 191, 59);
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;     
 } 
 
 .simple .title_big {
-        font-size: 80px;
-        font-family: "Roboto";
-        font-weight: 400;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        margin-top: 20px;
+    font-size: 80px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
 }
 
 .promo .promo_text {
-        font-size: 21px;
-        font-family: "Roboto Light";
-        font-weight: 300;
-        color: rgb(255, 255, 255);
-        line-height: 28px;
-        text-align: center; 
-        padding: 0 12px;
-        margin-top: 30px;  
+    font-size: 21px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: center; 
+    padding: 0 12px;
+    margin-top: 30px;  
 }
 
 .promo .promo_text span {
@@ -97,12 +97,12 @@ h2.title {
     margin-top: 71px;
 }
 .more .more_text {
-        font-size: 15px;
-        font-family: "Roboto - Thin";
-        font-weight: 400px;
-        color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        text-align: center;    
+    font-size: 15px;
+    font-family: "Roboto - Thin";
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;    
 }
 
 .more .more_img {
@@ -111,4 +111,59 @@ h2.title {
     margin-top: 15px;
 }
       
+.waiting {
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 85px 0 75px 0;
+    
+}
 
+.waiting .waiting_header {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 400px;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-align: center;      
+}
+
+.waiting .waiting_divider {
+    background-color: rgb(249, 191, 59);
+    width: 217px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.waiting .waiting_subheader {
+    font-size: 23px;
+    font-family: "Roboto";
+    font-weight: 400px;
+    color: rgb(74, 74, 74);
+    text-align: center; 
+    margin-top: 15px;  
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 300px;
+    color: rgb(74, 74, 74);      
+}
