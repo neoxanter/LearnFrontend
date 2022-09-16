@@ -119,7 +119,7 @@ h2.title {
     
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     font-size: 30px;
     font-family: "Roboto";
     font-weight: 400px;
@@ -128,7 +128,11 @@ h2.title {
     text-align: center;      
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color:rgb(255, 255, 255);
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
     background-color: rgb(249, 191, 59);
     width: 350px;
     height: 4px;
@@ -172,7 +176,7 @@ h2.title {
 }
 
 .difference {
-    min-height: 550px;
+    min-height: 300px;
     padding: 45px 0 100px 0;
 }
 
@@ -212,4 +216,40 @@ h2.title {
     top: -50px;
     left: -110px;
     z-index: -1;
+}
+
+.finish {
+    min-height: 550px;
+    padding: 80px 0 70px 0;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 200px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: "Roboto";
+    color: rgb(239, 239, 239);
+    text-align: center; 
+    line-height: 20px;    
 }
