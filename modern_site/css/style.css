@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -112,7 +113,7 @@ h2.title {
 }
       
 .waiting {
-    height: 600px;
+    min-height: 600px;
     background-color: rgb(255, 255, 255);
     padding: 85px 0 75px 0;
     
@@ -129,7 +130,7 @@ h2.title {
 
 .waiting .waiting_divider {
     background-color: rgb(249, 191, 59);
-    width: 217px;
+    width: 350px;
     height: 4px;
     margin: 0 auto;
     margin-top: 20px;
@@ -168,4 +169,47 @@ h2.title {
     font-family: "Roboto";
     font-weight: 300px;
     color: rgb(74, 74, 74);      
+}
+
+.difference {
+    min-height: 550px;
+    padding: 45px 0 100px 0;
+}
+
+.difference_divider {
+    background-color: rgb(249, 191, 59);
+    width: 350px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+.difference .difference_header {
+    margin-left: 390px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: "Roboto - Black";
+    color: rgb(41, 156, 189);
+    text-transform: uppercase; 
+}
+
+.difference .difference_text {
+    margin-top: 20px;
+    margin-left: 390px;
+    font-size: 17px;
+    font-weight: 300px;
+    font-family: "Roboto Light";
+    color: rgb(74, 74, 74); 
+}
+
+.difference .difference_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700px;
+}
+
+.difference .difference_img {
+    position: absolute;
+    top: -50px;
+    left: -110px;
+    z-index: -1;
 }
