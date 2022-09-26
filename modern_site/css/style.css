@@ -310,4 +310,33 @@ h2.title {
     text-align: center;   
 }
 
+footer {
+    min-height: 150px;
+    background-color: #1a1a1a;
+    padding: 50px 0 55px 0;
+}
+
+.info {
+    margin: 0 auto;
+    width: 420px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #888888;
+    line-height: 22px;
+    text-align: center;     
+}
+
+footer a {
+    color: #888888;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
 
