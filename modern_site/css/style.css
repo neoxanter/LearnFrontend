@@ -75,7 +75,7 @@ h2.title {
     color: rgb(249, 191, 59);
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 65px;
@@ -253,3 +253,61 @@ h2.title {
     text-align: center; 
     line-height: 20px;    
 }
+
+.gift {
+    min-height: 550px;
+    padding: 55px 0 60px 0;
+    background-color:rgb(211, 214, 218);
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(37, 37, 37);
+    line-height: 43px;
+    text-align: center;   
+}
+
+.first {
+    min-height: 480px;
+    padding: 55px 0 66px 0;
+}
+
+.first .first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first .first_text {
+    margin-top: 32px;
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+.first .date {
+    margin-top: 15px;
+    font-size: 36px;
+    font-family: "Roboto - Black";
+    color: rgb(41, 156, 189);
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+.first .first_subtitle {
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: "Roboto";
+    color: rgb(74, 74, 74);
+    text-align: center;   
+}
+
+
