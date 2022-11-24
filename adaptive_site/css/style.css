@@ -27,6 +27,20 @@ nav {
 }
 
 .subheader {
-  height: 84px;
+  height: 80px;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 12px;
+}
+
+.subheader .subheader_official {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-top: 5px;
 }
