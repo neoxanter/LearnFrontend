@@ -1,3 +1,11 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+
+=btn_hover
+    &:hover
+        background-image: none
+        background-color: $main-color
+
 *
     font-family: 'Roboto', sans-serif
 
@@ -68,6 +76,7 @@ nav
     font-weight: 400
     text-transform: uppercase
     transition: 0.5s all
+    +btn_hover
     &:hover
         color: #000
 
@@ -117,6 +126,7 @@ nav
     font-weight: 400
     text-transform: uppercase
     transition: 0.5s all
+    +btn_hover
     &:hover
         color: #000
 
