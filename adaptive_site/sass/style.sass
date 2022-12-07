@@ -234,6 +234,7 @@ nav
                 display: block
                 width: 14px
                 height: 2px
+                transition: 0.3s all
                 background-color: $main-color
             &:after
                 content: ''
@@ -243,7 +244,11 @@ nav
                 display: block
                 height: 14px
                 width: 2px
+                transition: 0.3s all
                 background-color: $main-color
+            &:hover
+                &:before, &:after
+                    background-color: $second-color
 
 
 
