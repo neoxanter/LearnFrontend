@@ -292,13 +292,16 @@ nav
         padding-left: 50px
         margin-top: 22px
         li
+            display: inline-block
             font-size: 17px
             font-weight: 300
             line-height: 24px
             margin-bottom: 10px
             &:before
                 content: ''
-                display: block
+                display: inline-block
+                vertical-align: middle
+                transform: translate(-5px , -2px)
                 width: 21px
                 height: 20px
-                background: url('../icons/check_blue.svg')
+                background: url('../icons/check_blue.svg') center (center / cover) no-repeat
