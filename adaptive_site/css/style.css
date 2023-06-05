@@ -26,7 +26,7 @@ nav {
 }
 .menu_item {
   border-right: 2px dotted black;
-  padding-right: 70px;
+  padding-right: 2px;
 }
 .menu_item:last-child {
   border-right: none;
@@ -488,7 +488,7 @@ nav {
 }
 .menu_item {
   border-right: 2px dotted black;
-  padding-right: 70px;
+  padding-right: 2px;
 }
 .menu_item:last-child {
   border-right: none;
@@ -928,7 +928,7 @@ footer a:hover {
 
 @media (max-width: 1200px) {
   .menu_item {
-    padding-right: 3px;
+    padding-right: 125px;
   }
 }
 
