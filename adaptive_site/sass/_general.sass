@@ -1,3 +1,4 @@
+@import "variables"
 nav
   height: 50px
   background-color: #212121
@@ -64,7 +65,7 @@ nav
     font-weight: 400
     text-transform: uppercase
     transition: 0.5s all
-    +btn_hover
+    =btn_hover
     &:hover
       color: #000
 
@@ -109,7 +110,7 @@ nav
     font-weight: 400
     text-transform: uppercase
     transition: 0.5s all
-    +btn_hover
+    =btn_hover
     &:hover
       color: #000
 
@@ -170,7 +171,7 @@ nav
 .reasons_descr
   width: 343px
 
-  &_subtitle
+.reason_subtitle
   line-height: 21px
   color: #1eacc7
   font-size: 17px
