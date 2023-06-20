@@ -937,5 +937,10 @@ footer a:hover {
     width: 300px;
   }
 }
+@media (max-width: 991px) {
+  .menu_item {
+    padding-right: inherit;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
