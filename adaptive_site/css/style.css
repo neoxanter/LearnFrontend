@@ -941,6 +941,10 @@ footer a:hover {
   .menu_item {
     padding-right: inherit;
   }
+  .subheader_btn {
+    margin-top: 20px;
+    height: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
