@@ -967,11 +967,15 @@ footer a:hover {
     align-items: center;
     position: fixed;
     top: 0;
-    right: 0;
+    left: -100%;
     width: 50%;
     height: 100vh;
     padding: 20px 15px;
     background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  .menu_active {
+    left: 0;
   }
   .menu_item {
     padding-right: 0;
