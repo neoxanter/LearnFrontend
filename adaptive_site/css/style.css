@@ -951,6 +951,14 @@ footer a:hover {
   .promo_subheader {
     font-size: 25px;
   }
+  .reasons_block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
