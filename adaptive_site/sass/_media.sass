@@ -31,3 +31,23 @@
     &_descr
       width: 300px
       margin-top: 20px
+
+@media (max-width: 767px)
+  .menu
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: fixed
+    top: 0
+    right: 0
+    width: 50%
+    height: 100vh
+    padding: 20px 15px
+    background-color: rgba(0,0,0, .8)
+    &_item
+      padding-right: 0
+      border: none
+      margin: 10px 0
+    &_link
+      font-size: 20px
+
