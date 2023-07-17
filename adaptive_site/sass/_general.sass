@@ -2,7 +2,7 @@
 nav
   height: 50px
   background-color: #212121
-  
+
 .hamburger
   display: none
 
@@ -12,39 +12,47 @@ nav
   padding: 13px 70px
   margin: 0
   list-style-type: none
+
   &_link
     color: #ffffff
     font-size: 15px
     font-weight: 300
+
   &_sublink
     color: #227e81
     font-size: 15px
     font-weight: 300
+
   &_item
     border-right: 2px dotted black
     padding-right: 2px
+
     &:last-child
       border-right: none
 
 .subheader
   height: 80px
   background-color: rgba(0, 0, 0, 0.6)
+
   &_logo
     display: block
     max-width: 100%
     margin-top: 12px
+
   &_official
     color: #ffffff
     font-size: 16px
     font-weight: 400
     opacity: 0.5
     margin-top: 5px
+
   &_call
     color: #ffffff
     font-size: 14px
     font-weight: 300
     margin-top: 14px
     text-align: right
+
   &_phone
     display: block
     margin-top: 8px
@@ -54,6 +62,7 @@ nav
     text-transform: uppercase
     text-align: right
     line-height: 12px
+
   &_btn
     margin-top: 16px
     width: 168px
@@ -69,6 +78,7 @@ nav
     text-transform: uppercase
     transition: 0.5s all
     =btn_hover
+
     &:hover
       color: #000
 
@@ -76,6 +86,7 @@ nav
   min-height: 800px
   background: url('../img/main_bg.jpg') center (center / cover) no-repeat
   padding: 120px 0 135px 0
+
   &_header
     color: #bdbcbc
     font-size: 60px
@@ -84,6 +95,7 @@ nav
     line-height: 60px
     margin: 0
     text-align: center
+
   &_subheader
     color: #bdbcbc
     font-size: 36px
@@ -92,6 +104,7 @@ nav
     line-height: 36px
     margin: 20px 0 0
     text-align: center
+
   &_descr
     color: #bdbcbc
     font-size: 18px
@@ -99,6 +112,7 @@ nav
     line-height: 24px
     text-align: center
     margin-top: 22px
+
   &_btn
     display: block
     width: 260px
@@ -114,6 +128,7 @@ nav
     text-transform: uppercase
     transition: 0.5s all
     =btn_hover
+
     &:hover
       color: #000
 
@@ -131,6 +146,7 @@ nav
   font-weight: 300
   text-transform: uppercase
   text-align: center
+
   &_white
     background-color: #fff
     color: #000
@@ -143,6 +159,7 @@ nav
   font-weight: 700
   text-transform: uppercase
   text-align: center
+
   &_white
     color: #fff
 
@@ -152,6 +169,7 @@ nav
   font-size: 17px
   font-weight: 400
   text-align: center
+
   &_white
     color: #fff
 
@@ -190,26 +208,35 @@ nav
   min-height: 864px
   padding: 48px 0 79px 0
   background: url('../img/mobile_app.png') center (center / cover) no-repeat
+
   &_row
     margin-top: 28px
+
   &_item
     position: relative
     width: 320px
     height: 280px
     margin: 0 auto 19px
     padding-top: 92px
+
     &_1
       background: url('../img/mobile_screen_1.jpg') center (center / cover) no-repeat
+
     &_2
       background: url('../img/mobile_screen_2.jpg') center (center / cover) no-repeat
+
     &_3
       background: url('../img/mobile_screen_3.jpg') center (center / cover) no-repeat
+
     &_4
       background: url('../img/mobile_screen_4.jpg') center (center / cover) no-repeat
+
     &_5
       background: url('../img/mobile_screen_5.jpg') center (center / cover) no-repeat
+
     &_6
       background: url('../img/mobile_screen_6.jpg') center (center / cover) no-repeat
+
     &_subtitle
       color: #ffffff
       font-size: 24px
@@ -217,8 +244,10 @@ nav
       line-height: 31px
       text-transform: uppercase
       text-align: center
+
       &:hover
         color: yellow
+
     &_plus
       display: flex
       justify-content: center
@@ -233,6 +262,7 @@ nav
       margin: 0 auto
       border-radius: 100%
       cursor: pointer
+
       &:before
         content: ''
         display: block
@@ -240,6 +270,7 @@ nav
         height: 2px
         transition: 0.3s all
         background-color: $main-color
+
       &:after
         content: ''
         position: absolute
@@ -250,10 +281,10 @@ nav
         width: 2px
         transition: 0.3s all
         background-color: $main-color
+
       &:hover
         &:before, &:after
           background-color: $second-color
-
 
 
 .choice
@@ -261,11 +292,13 @@ nav
   min-height: 880px
   padding: 5px 0 15px 0
   background: url('../img/mobile_app.png') center (center / cover) no-repeat
+
   &_img
     position: relative
     display: block
     margin: 5px auto 0 auto
     z-index: 2
+
   &_descr
     margin-top: 10px
     text-align: center
@@ -273,6 +306,7 @@ nav
     font-size: 22px
     font-weight: 400
     line-height: 24px
+
   .black
     position: absolute
     top: 0
@@ -284,24 +318,30 @@ nav
 
 .require
   padding: 18px 0 84px 0
+
   &_block
     margin: 33px 0
+
     &_nmb
       margin-bottom: 1px
+
   &_title
     color: #1ca8c3
     font-size: 22px
     font-weight: 400
+
   &_list
     list-style-type: none
     padding-left: 50px
     margin-top: 22px
+
     li
       position: relative
       font-size: 17px
       font-weight: 300
       line-height: 24px
       margin-bottom: 10px
+
       &:before
         content: ''
         display: block
@@ -317,6 +357,7 @@ nav
   min-height: 715px
   padding: 48px 0
   background: url('../img/map.jpg') center (center / cover) no-repeat
+
   &_link
     position: absolute
     left: 50%
@@ -328,12 +369,14 @@ nav
     line-height: 68px
     text-transform: uppercase
     color: #1fbad6
+
     &:hover
       text-decoration: none
       color: #fff
 
 footer
   padding: 14px 22px 38px 23px
+
   a
     &:hover
       text-decoration: none
@@ -344,19 +387,24 @@ footer
     height: 4px
     background-color: #1fbad6
     margin: 0 auto
+
   &_wrapper
     display: flex
     align-items: flex-start
     padding-top: 32px
+
   &_wrapper > div
     width: 33%
+
     &:nth-child(3)
       display: flex
       justify-content: flex-end
+
   &_social
     width: 160px
     display: flex
     justify-content: space-between
+
     &_item
       display: flex
       justify-content: center
@@ -366,28 +414,35 @@ footer
       height: 32px
       background-color: #070716
       border-radius: 100%
+
       i
         color: #fff
+
   &_links
     width: 390px
     margin: 0 auto
+
     &_main
       display: flex
       justify-content: space-between
+
     a
       color: #070716
       font-size: 15px
       font-weight: 300
       text-transform: uppercase
+
     &_sub
       display: flex
       justify-content: space-between
       margin-top: 10px
+
       a
         color: #999999
         font-size: 11px
         font-weight: 300
         text-transform: uppercase
+
     &_lang
       display: block
       color: #1fbad6
@@ -396,3 +451,6 @@ footer
       margin: 19px auto 0
       text-transform: uppercase
       text-align: center
+
+.xs-visible
+  display: none

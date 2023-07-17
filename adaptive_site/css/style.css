@@ -468,6 +468,10 @@ footer a:hover {
   text-align: center;
 }
 
+.xs-visible {
+  display: none;
+}
+
 nav {
   height: 50px;
   background-color: #212121;
@@ -934,6 +938,10 @@ footer a:hover {
   text-align: center;
 }
 
+.xs-visible {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .menu_item {
     padding-right: 125px;
@@ -1031,6 +1039,27 @@ footer a:hover {
   }
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  }
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .subheader_btn {
+    display: block;
+    width: 170px;
+    height: 32px;
+    margin: 10px auto;
   }
 }
 
