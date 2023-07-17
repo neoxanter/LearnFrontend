@@ -1013,6 +1013,19 @@ footer a:hover {
     width: 100%;
     background-color: #FFFFFF;
     margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: rotate(45deg);
   }
 }
 

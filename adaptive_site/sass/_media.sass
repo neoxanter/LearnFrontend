@@ -78,3 +78,13 @@
       width: 100%
       background-color: #FFFFFF
       margin-bottom: 2px
+      transition: 0.5s all
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: rotate(45deg)
