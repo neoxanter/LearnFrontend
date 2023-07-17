@@ -936,6 +936,9 @@ footer a:hover {
   .reasons_descr {
     width: 300px;
   }
+  .mobile_item {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .menu_item {
@@ -958,6 +961,9 @@ footer a:hover {
   .reasons_descr {
     width: 300px;
     margin-top: 20px;
+  }
+  .choice_img {
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {

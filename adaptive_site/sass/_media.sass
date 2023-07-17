@@ -10,6 +10,9 @@
     &_descr
       width: 300px
 
+  .mobile_item
+      width: 100%
+
 @media (max-width: 991px)
   .menu
     &_item
@@ -22,15 +25,20 @@
   .promo
     &_header
       font-size: 35px
+
     &_subheader
       font-size: 25px
   .reasons
     &_block
       flex-direction: column
       align-items: flex-start
+
     &_descr
       width: 300px
       margin-top: 20px
+  .choice
+    &_img
+      max-width: 100%
 
 @media (max-width: 767px)
   .menu
@@ -43,14 +51,16 @@
     width: 50%
     height: 100vh
     padding: 20px 15px
-    background-color: rgba(0,0,0, .8)
+    background-color: rgba(0, 0, 0, .8)
     transition: 0.6s all
+
     &_active
       left: 0
+
     &_item
       padding-right: 0
       border: none
       margin: 10px 0
+
     &_link
       font-size: 20px
-
