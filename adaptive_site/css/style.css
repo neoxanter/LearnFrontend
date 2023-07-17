@@ -970,6 +970,9 @@ footer a:hover {
     width: 300px;
     margin-top: 20px;
   }
+  .choice {
+    min-height: 610px;
+  }
   .choice_img {
     max-width: 100%;
   }
