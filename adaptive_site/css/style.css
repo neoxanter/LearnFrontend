@@ -7,6 +7,10 @@ nav {
   background-color: #212121;
 }
 
+.hamburger {
+  display: none;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -467,6 +471,10 @@ footer a:hover {
 nav {
   height: 50px;
   background-color: #212121;
+}
+
+.hamburger {
+  display: none;
 }
 
 .menu {
@@ -990,6 +998,21 @@ footer a:hover {
   }
   .menu_link {
     font-size: 20px;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    transform: translateY(-50%);
+    width: 25px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 2px;
   }
 }
 
