@@ -1066,5 +1066,26 @@ footer a:hover {
     line-height: 45px;
   }
 }
+@media (max-width: 575px) {
+  .subheader_official {
+    display: none;
+  }
+  .subheader_logo {
+    margin-top: 23px;
+  }
+  img {
+    max-width: 180px;
+  }
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .subheader_btn {
+    width: 110px;
+    height: 36px;
+    font-size: 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
