@@ -1067,14 +1067,14 @@ footer a:hover {
   }
 }
 @media (max-width: 575px) {
+  img {
+    max-width: 180px;
+  }
   .subheader_official {
     display: none;
   }
   .subheader_logo {
     margin-top: 23px;
-  }
-  img {
-    max-width: 180px;
   }
   .subheader_phone {
     font-size: 12px;
@@ -1085,6 +1085,15 @@ footer a:hover {
     width: 110px;
     height: 36px;
     font-size: 10px;
+  }
+  .promo {
+    min-height: 480px;
+    padding: 9px 0 35px 0;
+  }
+  .promo_btn {
+    width: 155px;
+    height: 42px;
+    font-size: 14px;
   }
 }
 
