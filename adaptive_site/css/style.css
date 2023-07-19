@@ -1107,6 +1107,12 @@ footer a:hover {
   .title {
     font-size: 24px;
   }
+  .choice {
+    min-height: 490px;
+  }
+  .footer_links {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
